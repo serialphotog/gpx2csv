@@ -83,6 +83,9 @@ def convertGPX(gpx_path, csv_path, overwriteCSV=False):
         logger.error(gpx_path + " does not exis.encode('utf-8')t. Exiting...")
         sys.exit() # Nothing to work with!
 
+    if os.path.isfile(csv_path):
+        os.remove(csv_path)
+
     # Get the waypoints from the GPX file
     waypoints = parseGPX(gpx_path)
 
