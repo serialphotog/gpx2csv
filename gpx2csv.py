@@ -109,7 +109,7 @@ args = parser.parse_args()
 overwriteCSV = False
 
 if not args.gpx_path or not args.csv_path:
-    logger.error("You must supply an input and output!");
+    logger.error("You must supply an input and output!")
 elif not os.path.isfile(args.gpx_path):
     logger.error("The input GPX file " + args.gpx_path + " does not exist")
 elif os.path.isfile(args.csv_path):
