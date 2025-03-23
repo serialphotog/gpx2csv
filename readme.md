@@ -1,16 +1,20 @@
-# Gpx2Csv
+# Deprecation Notice
+
+This project is extremely old and, frankly, extremely flawed. I'm not going to be updating this, but I did create a much better tool that I recommend you check out instead: [GPS Tools](https://github.com/serialphotog/GPS-Tools). 
+
+## Gpx2Csv
 
 This is a very simple command line utility that fills a niche use I had.
 
 I have thousands of waypoints stored in my GPS that consist of waterfalls and arches. I frequently back these waypoints up as GPX files. I wanted a way that I could view this data in a more convenient format than GPX, so I wrote this utility to write the GPX files to CSV.
 
-## Usage
+### Usage
 
 ```
 $ python gpx2csv.py --input INPUT_GPX.gpx --output OUTPUT_FILE.csv
 ```
 
-# License
+## License
 
  DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
